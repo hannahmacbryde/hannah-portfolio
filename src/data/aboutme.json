@@ -1,0 +1,25 @@
+{
+    "mainAboutCopy": "I'm originally from Warrington but currently residing in Bury. I studied Creative Media Technology at Leeds Beckett University before joining PrettyLittleThing in 2016. I enjoy finding the next challenge and staying up to date with the latest technologies. I'm a UX Developer with 8 years industry experience, proficient in technologies such as React, JavaScript/jQuery, Git, Figma & Storybook. Thanks for stopping by!",
+
+    "aboutItems": [
+        {
+            "text": "- Proud owner of a beautiful Blenheim Cavalier King Charles called",
+            "highlight": "Rosie"
+        },
+        {
+            "text": "- Part Time",
+            "highlight": "Aerialist",
+            "extra": "& have trained in the art for around 7 years now!"
+        },
+        {
+            "text": "-",
+            "highlight": "Hufflepuff",
+            "extra": "for the win always! Anyone who says otherwise is kidding themselves!"
+        },
+        {
+            "text": "- Mint Choc Chip, Raspberry Ripple or Biscoff",
+            "highlight": "Ice Cream",
+            "extra": "can never be beaten!"
+        }
+    ]
+}

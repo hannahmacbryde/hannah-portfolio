@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Personal Projects Website",
+        "imageSrc": "projects/projects-mac2.png",
+        "description": "I've designed and developed my own personal projects website where I've decided to display all of the past & current projects I'm working on. This will be updated regularly.",
+        "skills": ["React", "JavaScript", "Tailwind", "REST API"],
+        "projectLink": "https://hmacbrydeprojects.netlify.app/"
+    },
+    {
+        "title": "Olivia Culpo Campaign",
+        "imageSrc": "projects/olivia-mac.png",
+        "description": "Campaign Page I've built for when we had a collaboration with Olivia Culpo at PrettyLittleThing. *Disclaimer: I do not own the rights to these images or videos.",
+        "skills": ["HTML5", "CSS", "JavaScript", "jQuery", "BootStrap", "Gulp"],
+        "videoLink": "/olivia-culpo.mp4"
+    },
+    {
+        "title": "The Escape Campaign",
+        "imageSrc": "projects/escape-mac.png",
+        "description": "Campaign Page I've built for Australia's Autumn/Winter collection at PrettyLittleThing. *Disclaimer: I do not own the rights to these images or videos.",
+        "skills": ["HTML5", "CSS", "JavaScript", "jQuery", "BootStrap", "Gulp"],
+        "videoLink": "/the-escape-video.mp4"
+    }
+]

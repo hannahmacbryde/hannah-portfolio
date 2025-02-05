@@ -1,0 +1,200 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-black);
+    scroll-margin-top: 200px;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1; 
+}
+
+.title {
+    color: var(--color-black);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 14px;
+    padding: 60px 0;
+    align-items: center;
+}
+
+.skills {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    height: fit-content;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+
+.skillImageContainer {
+    background-color: var(--color-text);
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.skillImageContainer img {
+    width: 50px;
+}
+
+.skill p {
+    font-size: 15px;
+    font-family: var(--font-barlow);
+    text-transform:capitalize;
+    font-weight: 500;
+}
+
+.history {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-right: 40px;
+}
+
+.historyItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    background-color: var(--color-text);
+    border-radius: 10px;
+    padding: 24px;
+    border: 2px solid #000;
+}
+
+h3.impText {
+    font-family: var(--font-barlow);
+    color: var(--color-black);
+    text-decoration: underline;
+} 
+
+.historyItem img {
+    width: 135px;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 90px;
+}
+
+.historyItemDetails {
+    font-family: var(--font-barlow);
+    color: var(--color-black);
+}
+
+.historyItemDetails h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.historyItemDetails p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: var(--font-barlow);
+    margin-bottom: 10px;
+}
+
+.historyItemDetails ul {
+    margin-top: 6px;
+    list-style-position: inside;
+    font-size: 16px;
+    list-style-type: disc;
+    margin-left: 17px;
+    padding-left: 4px;
+}
+
+.historyItemDetails ul li {
+    font-family: var(--font-barlow);
+}
+
+.exp {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+}
+
+.exp h4 {
+    margin-bottom: 0;
+    text-decoration: underline;
+    font-family: var(--font-berkshire);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Mobile */
+@media screen and (max-width: 1160px) {
+    .container {
+        margin-top: 40px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+        padding:0;
+    }
+
+    .skills {
+        width: 90%;
+        flex-direction: row;
+        justify-content: center;
+        gap: 9px;
+    }
+
+    .history {
+        width: 90%;
+        gap: 9px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom:0;
+    }
+
+    .historyItem {
+        flex-direction: column;
+    }
+
+    .historyItem img {
+        width: 160px;
+    }
+
+    .exp { 
+        width: 95%;
+    }
+
+    .reveal.active {
+        transform: inherit;
+        height: fit-content;
+    }
+}

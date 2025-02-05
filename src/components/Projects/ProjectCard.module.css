@@ -1,0 +1,135 @@
+@import "../../vars.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: var(--color-text);
+    padding: 18px 24px;
+    max-width: 345px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--color-black);
+    font-family: var(--font-barlow);
+}
+
+.description {
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-black);
+    font-family: var(--font-barlow);
+}
+
+.skills {
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.skill {
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-black);
+    padding: 5px 22px;
+    display: flex;
+    flex: auto;
+    text-align: center;
+    justify-content: center;
+    font-family: var(--font-barlow);
+}
+
+.links {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: var(--color-black);
+    padding: 8px 22px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    font-family: var(--font-barlow);
+}
+
+.demoLink {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: var(--color-black);
+    padding: 8px 22px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    font-family: var(--font-barlow);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 999;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.closeButton {
+    position: relative;
+    top: 10px;
+    left: 785px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+/* Mobile */
+@media screen and (max-width: 1160px) {
+    .container {
+        margin-bottom:40px;
+        max-width: 80%;
+    }
+}

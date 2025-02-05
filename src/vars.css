@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Laisha';
+    src: url('./assets/font/Laisha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+:root {
+    /* Colours */
+    --color-text: #fff;
+    --color-primary: #BEB7DF;
+    --color-secondary: #685155;
+    --color-light-green: #BDD9BF;
+    --color-grey: #c5c5c5;
+    --color-dark-blue: #2E4052;
+    --color-green: #D4F2D2;
+    --color-bg: #ABA9BF;
+    --color-black: #000;
+    --color-yellow: #FFC857;
+    --color-beige: #f5ebe0;
+
+
+    /* Fonts */
+    --font-roboto: "Roboto";
+    --font-barlow: "Barlow";
+    --font-berkshire: "Berkshire Swash", cursive;
+    --font-laisha: "Laisha";
+}

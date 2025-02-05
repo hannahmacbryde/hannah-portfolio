@@ -1,0 +1,54 @@
+[
+    {
+        "title": "HTML5",
+        "imageSrc": "skills/html.png"
+    },
+    {
+        "title": "Bootstrap",
+        "imageSrc": "skills/bootstrap.png"
+    },
+    {
+        "title": "CSS3",
+        "imageSrc": "skills/css.png"
+    },
+    {
+        "title": "SASS",
+        "imageSrc": "skills/sass.png"
+    },
+    {
+        "title": "Gulp",
+        "imageSrc": "skills/gulp.png"
+    },
+    {
+        "title": "JavaScript",
+        "imageSrc": "skills/javascript.png"
+    },
+    {
+        "title": "jQuery",
+        "imageSrc": "skills/jquery.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "skills/react.png"
+    },
+    {
+        "title": "Figma",
+        "imageSrc": "skills/figma.png"
+    },
+    {
+        "title": "Git",
+        "imageSrc": "skills/git.png"
+    },
+    {
+        "title": "Tailwind",
+        "imageSrc": "skills/tailwind.png"
+    },
+    {
+        "title": "Storybook",
+        "imageSrc": "skills/storybook.png"
+    },
+    {
+        "title": "Adobe CC",
+        "imageSrc": "skills/adobe-cc.png"
+    }
+]
